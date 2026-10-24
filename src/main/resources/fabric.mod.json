@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "amongus",
+  "version": "${version}",
+  "name": "Among Us",
+  "description": "A social-deduction game mode for Minecraft. Crewmates, impostors, tasks, meetings, voting, vents and sabotage.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.amongus.AmongUsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
